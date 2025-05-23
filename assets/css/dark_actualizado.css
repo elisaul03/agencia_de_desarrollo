@@ -1,0 +1,64 @@
+
+:root {
+    --color-banner: #27272e;
+    --color-text-body: #d3d3d4;
+    --color-secondary: #d3d3d4;
+    --color-title: #d3d3d4;
+    --color-border: #393940;
+}
+
+body {
+    background-color: var(--color-banner);
+    color: var(--color-text-body);
+}
+
+.menu-mobile {
+    background-color: var(--color-banner) !important;
+    color: var(--color-text-body) !important;
+}
+
+.menu-mobile__link,
+.submenu-mobile__link {
+    color: var(--color-text-body) !important;
+}
+
+.menu-mobile__close {
+    border-color: var(--color-border);
+    color: var(--color-text-body);
+}
+
+.navbar__logo-light {
+    background-color: var(--color-secondary);
+    border-radius: 3rem;
+}
+
+.nav__title:hover,
+.submenu__title:hover,
+.projects__title:hover,
+.flinks__title:hover {
+    color: var(--color-secondary);
+}
+
+.nav__title::before,
+.submenu__title::after,
+.layout__contact::before {
+    background-color: var(--color-secondary);
+}
+
+.banner__btn,
+.contact__btn {
+    background-color: var(--color-secondary);
+}
+
+.services__service,
+.projects__content,
+.menu__navbar--fixed,
+.fleft__group,
+.fleft__form-control {
+    background-color: var(--color-banner);
+    color: var(--color-text-body);
+}
+
+.widget__link:hover {
+    color: var(--color-secondary);
+}
